@@ -79,6 +79,38 @@ while x == 0
   GPIO,output(ledGreen,GPIO.LOW)
   time.sleep(.2)
   
+  GPIO.output(ledRed,GPIO.HIGH)
+  GPIO.output(ledYellow,GPIO.HIGH)
+  GPIO.output(ledGreen,GPIO.HIGH)
+  time.sleep(.5)
+  
+   GPIO.output(ledRed,GPIO.LOW)
+  GPIO,output(ledYellow,GPIO.LOW)
+  GPIO,output(ledGreen,GPIO.LOW)
+  time.sleep(.2)
+  
+  GPIO.output(ledRed,GPIO.HIGH)
+  GPIO.output(ledYellow,GPIO.HIGH)
+  GPIO.output(ledGreen,GPIO.HIGH)
+  time.sleep(.5) GPIO.output(ledRed,GPIO.LOW)
+  GPIO,output(ledYellow,GPIO.LOW)
+  GPIO,output(ledGreen,GPIO.LOW)
+  time.sleep(.2)
+  
+  GPIO.output(ledRed,GPIO.HIGH)
+  GPIO.output(ledYellow,GPIO.HIGH)
+  GPIO.output(ledGreen,GPIO.HIGH)
+  time.sleep(.5) GPIO.output(ledRed,GPIO.LOW)
+  GPIO,output(ledYellow,GPIO.LOW)
+  GPIO,output(ledGreen,GPIO.LOW)
+  time.sleep(.2)
+  
+  GPIO.output(ledRed,GPIO.HIGH)
+  GPIO.output(ledYellow,GPIO.HIGH)
+  GPIO.output(ledGreen,GPIO.HIGH)
+  time.sleep(.5)
+  
+  
   
   
   
