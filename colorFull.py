@@ -65,11 +65,21 @@ while x == 0
   time.sleep(.7)
   GPIO.output(ledGreen,GPIO.LOW)
   time.sleep(.2)
+  
+  
   GPIO.output(ledRed,GPIO.HIGH)
   time.sleep(.2)
   GPIO.output(ledYellow,GPIO.HIGH)
   time.sleep(.2)
   GPIO.output(ledGreen,GPIO.HIGH)
+  time.sleep(.5)
+  
+  GPIO.output(ledRed,GPIO.LOW)
+  GPIO,output(ledYellow,GPIO.LOW)
+  GPIO,output(ledGreen,GPIO.LOW)
+  time.sleep(.2)
+  
+  
   
   
   
