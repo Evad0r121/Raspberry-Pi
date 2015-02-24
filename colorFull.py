@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 
 ledRed = 11
 ledYellow = 29
-ledGreen =33
+ledGreen = 33
 
 GPIO.setwarnings(False)
 
